@@ -9,7 +9,6 @@ footer {
 }
 
 .header {
-    
     display: flex;
     gap: 10px;
     max-width: 1200px;
@@ -51,8 +50,8 @@ footer {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    max-width: 600px;
-    background-color: white;
+    max-width: 1200px;
+    background-color: #1F2937;
 }
 
 .main {
