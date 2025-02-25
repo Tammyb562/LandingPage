@@ -2,6 +2,7 @@ body {
     background-color: black;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
      /* #E5E7EB  colour for 3rd div*/ 
+
 }
 
 footer {
@@ -48,8 +49,15 @@ footer {
 
 .hero {   
     display: flex;
+    max-width: 1200px;
+    background-color: #1F2937;
+    justify-content: center;
+}
+
+.left {   
+    flex: 1 1 auto;
+    display: flex;
     flex-direction: column;
-    gap: 10px;
     max-width: 1200px;
     background-color: #1F2937;
 }
@@ -57,13 +65,12 @@ footer {
 .main {
     flex: 1 1 auto;
     box-sizing: border-box;
-    margin-top:12.5%;
     border: 1px solid #ddd;
     border-radius: 8px;
     text-align: left;
     color: #f9faf8;
+    margin-top: 12.5%;
     margin-left: 12.5%;
-    margin-right: 50%;
     font-weight: 900;
     font-size: 48px;
 }
@@ -79,7 +86,6 @@ footer {
     color: #f9faf8;
     text-align: left;
     margin-left: 12.5%;
-    margin-right: 50%
 }
 
 .button {
@@ -89,8 +95,21 @@ footer {
     border: 1px solid #ddd;
     border-radius: 8px;
     text-align: center;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: #3882f6;
     color: #f9faf8;
     margin-left: 12.5%;
-    margin-right: 75%
+    margin-right: 75%;
+    margin-bottom: 12.5%;
+}
+
+.right {
+    flex: 1 1 auto;
+    box-sizing: border-box;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    align-content: center;
+    background-color: grey;
+    color: #f9faf8;
+    margin-right: 12.5%;
 }
