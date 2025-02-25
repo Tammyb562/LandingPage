@@ -12,7 +12,7 @@ footer {
 .header {
     display: flex;
     gap: 10px;
-    /* max-width: 1200px; */
+    max-width: 1200px;
     background-color: #1F2937;
 }
 
@@ -96,7 +96,7 @@ footer {
     background-color: #3882f6;
     color: #f9faf8;
     margin-left: 12.5%;
-    margin-right: 75%;
+    margin-right: 50%;
     margin-bottom: 12.5%;
 }
 
@@ -110,17 +110,4 @@ footer {
     background-color: grey;
     color: #f9faf8;
     margin-right: 12.5%;
-}
-
-.button {
-    flex: 1 1 auto;
-    box-sizing: border-box;
-    padding: 5px;
-    /* border: 1px solid #ddd;*/
-    border-radius: 8px;
-    text-align: center;
-    /* transition: transform 0.3s ease, box-shadow 0.3s ease; */
-    background-color: #3882F6;
-    color: #f9faf8;
-    margin-right: 80%;
 }
