@@ -81,3 +81,16 @@ footer {
     margin-left: 12.5%;
     margin-right: 50%
 }
+
+.button {
+    flex: 1 1 auto;
+    box-sizing: border-box;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    color: #f9faf8;
+    margin-left: 12.5%;
+    margin-right: 75%
+}
